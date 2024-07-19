@@ -3,7 +3,7 @@ from langchain_community.llms import Ollama #Se importa la función
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
-llm = Ollama(model="llama3", base_url="http://localhost:11434")
+llm = Ollama(model="llama3") #base_url="http://localhost:11434")
 
 #Parte I
 def main():
